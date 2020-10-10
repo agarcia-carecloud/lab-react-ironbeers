@@ -81,3 +81,26 @@ header img {
   width: 2vw;
   height: 2vw;
 }
+
+.beer-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  height: 14vw;
+  width: 4vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.list-item-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.list-item-box {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  border: #282c34 solid 1px;
+}
