@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <div className="centerContent homePage">
+      <header>
+        <h2>IronBeers</h2>
+      </header>
       <div className="centerContent home-links">
         <ul>
           <img src="/images/beer-taps-1.jpg" alt="beer-taps-1" />

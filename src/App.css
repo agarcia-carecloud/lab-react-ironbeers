@@ -70,5 +70,14 @@ ul {
 header {
   display: flex;
   width: 100%;
-  color: deepskyblue;
+  padding: 10px;
+  background-color: deepskyblue;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+header img {
+  align-items: center;
+  width: 2vw;
+  height: 2vw;
 }
