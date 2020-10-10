@@ -15,6 +15,11 @@ function App() {
         <Route exact path="/beers" component={ListBeers} />
         <Route exact path="/random-beer" component={BeerDetails} />
         <Route exact path="/new-beer" component={NewBeer} />
+        <Route
+          exact
+          path="/beerDetails:beerId"
+          render={(props) => <BeerDetails {...props} />}
+        />
       </Switch>
     </div>
   );

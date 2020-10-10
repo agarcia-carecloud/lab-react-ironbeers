@@ -22,9 +22,8 @@ class ListBeers extends Component {
     return this.state.listOfBeers.map((beer, i) => {
       return (
         <div key={i} className="list-item-box centerContent">
-          <img className="beer-image" src={beer.image_url} alt="beer" />
-
-          <Link to={`/beers/${beer.id}`}>{beer.name}</Link>
+          <img className="beer-image" src={`${beer.image_url}`} alt="beer" />
+          <Link to={`/beers/${beer._id}`}>{beer.name}</Link>
           <br />
           <h3>{beer.tagline}</h3>
           <h5>Created by: {beer.contributed_by}</h5>
